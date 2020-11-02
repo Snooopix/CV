@@ -1,6 +1,64 @@
+h3 {
+    text-decoration: underline;
+}
 
-dinv {
+.bottom {
     display: flex;
-    justify-content: space-around
-}   
+    justify-content: space-around;
+}
 
+.bottom_right {
+/*    display: flex;*/
+    flex-direction: column;
+/*    justify-content: center;*/
+    flex-basis: 45%
+}
+
+.bottom_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+/*    flex-basis: 45%*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comfortaa';
+    font-size: larger
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+/*    border: 10px solid black*/
+}
+
+.top_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+img {
+    border: 10px solid #6f000d;
+}
+
+.a_propos_de_moi {
+    border-width: 2px;
+    border-color: black black white grey;
+/*    border-style: dotted;*/
+    border-style: outset;
+/*    border-color: black;*/
+    padding: 15px
+}
+
+.resume {
+    border-width: 2px;
+    border-color: grey black white grey;
+/*    border-style: dotted;*/
+    border-style: outset;
+/*    border-color: black;*/
+    padding: 15px
+}
+}
